@@ -37,3 +37,15 @@ The key difference between Git and GitHub is that Git is a free, open source ver
 f. What does git diff do?
 git diff is a multi-use Git command that when executed runs a diff function
  on Git data sources. These data sources can be commits, branches, files and more.
+
+g. What is the main branch?
+The default branch name in Git is master. As you start making commits,
+ you're given a master branch that points to the last commit you made.
+
+h. Besides our initial commit if it is a new repository, should we directly push
+ our changes directly into the main branch?
+It's generally not recommended to push changes directly to the main branch,
+ especially in collaborative projects. Instead, it's best practice to work on separate
+branches, make your changes, test them, and then merge them into the main branch via
+a pull request or merge request after review. This helps maintain a clean and stable main
+branch and allows for collaboration and code review before changes are integrated.
