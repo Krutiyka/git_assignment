@@ -27,3 +27,13 @@ Once the invite is sent, the recipient receives a notification. At this point,
  the recipient can accept or decline the invite via email or the GitHub platform.
 If you run into issues, it might be because of a policy for your Enterprise that restricts
  who can invite outside contributors.
+
+e. What is the difference between git and GitHub?
+The key difference between Git and GitHub is that Git is a free, open source version
+ control tool that developers install locally on their personal computers,
+ while GitHub is a pay-for-use online service built to run Git in the cloud.
+ Git is a piece of software. GitHub is an online SaaS service.
+
+f. What does git diff do?
+git diff is a multi-use Git command that when executed runs a diff function
+ on Git data sources. These data sources can be commits, branches, files and more.
